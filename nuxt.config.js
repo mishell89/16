@@ -30,7 +30,10 @@ module.exports = {
     mode: 'out-in'
   },
   plugins: [
-    {src: '~/plugins/modernizr.js', ssr: false}
+    {src: '~/plugins/modernizr.js', ssr: false},
+    {src: '~/plugins/stickykit.js', ssr: false},
+    {src: '~/plugins/scrollspy.js', ssr: false},
+    {src: '~/plugins/scrollto.js', ssr: false}
   ],
   loading: false,
   build: {
